@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="login" method="post">
+ 
+
+
+ 
+   <label for="fname">Username:</label><br>
+  <input type="text" id="u1" name="username" value="John"><br>
+
+   <label for="p1">Password:</label><br>
+  <input type="text" id="p1" name="password" value="John"><br>
+  
+
+  
+  <input type="submit" value="Submit">
+</form> 
+<div>
+{% for message in messages %}
+<h3>{{ message }}</h3>
+{% endfor %}
+</div>
+
+</body>
+</html>
